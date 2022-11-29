@@ -3,7 +3,7 @@
   <div class="position-relative landing-page-container-1">
     <div class="position-relative d-flex justify-content-between mt-30px landing-page-top-bar">
       <div class="fc-landing-page d-flex align-items-center">
-        <p>waves</p>>
+        <p>waves</p>
       </div>
       <div class="fc-landing-page d-flex align-items-center">
         <a class="fc-landing-page mr-15px" (click)="globalVars.launchLoginFlow()">
@@ -16,71 +16,7 @@
         <button *ngIf="!globalVars.isMobile()" style="font-size: 16px; padding: 5px; width: 152px; height: 50px" class="landing-page-primary-btn-inverted landing-page-btn fs-16px" (click)="globalVars.launchSignupFlow()">{{t("landing.signuptoday")}}</button>
       </div>
     </div>
-  <!--  TODO: Put all of this styling into sensible classes.-->
-    <!--Title text-->
-    <div class="landing-page-content-container d-flex flex-column justify-content-center">
-      <div class="d-flex align-items-center justify-content-between w-100 h-100" [ngClass]="{ 'flex-column': globalVars.isMobile() }">
-        <div data-aos="fade-right" data-aos-duration="500" data-aos-offset="-1000" style="top: 300px; z-index: 1" [ngStyle]="{ width: !globalVars.isMobile() ? '596px' : 'auto' }">
-          <h1 class="landing-page-header-main">{{t('landing.settle')}}</h1>
-          <h3 class="landing-page-subtext" style="margin-top: 18px">
-            {{t("landing.diamonds")}}
-            <br>
-            <span class="d-block mt-15px">Built on DeSo — the Decentralized Social Blockchain.</span>
-          </h3>
-          <div
-            style="margin-top: 43px"
-            [ngClass]="{ 'mr-30px': !globalVars.isMobile(), 'flex-column': globalVars.isMobile() }"
-          >
-            <button
-              class="landing-page-btn landing-page-primary-btn font-weight-bold"
-              (click)="globalVars.launchSignupFlow()"
-              [ngClass]="{ 'w-100': globalVars.isMobile() }"
-            >
-              <div class="mb-10px">Create Account</div>
-<!--              <div class="landing-page-button-subtext">Get <free-deso-message></free-deso-message> free</div>-->
-            </button>
-          </div>
-        </div>
-        <div class="position-relative h-100 w-100" style="width: 600px !important">
-          <div class="landing-page-nft-card-holder landing-page-robot-2">
-            <img class="position-relative" src="/assets/img/example-nft-2.png" width="389.55px" height="447.11px" style="border-radius: 26.14px"/>
-            <div class="position-relative d-flex justify-content-between fc-landing-page" style="top: 35px; margin-bottom: 36px">
-              <div class="d-flex flex-column">
-                <div class="landing-page-nft-card-fs-large landing-page-nft-card-fs-title">CloutPunk NFT #001</div>
-                <div class="landing-page-nft-card-fs-small" style="margin-top: 10px">For Sale</div>
-              </div>
-              <div class="d-flex flex-column align-items-end">
-                <div class="landing-page-nft-card-fs-small" style="margin-top: 2px">Min Bid</div>
-                <div class="d-flex justify-content-end landing-page-nft-card-fs-large" style="margin-top: 5px">
-                  $69,420
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="landing-page-nft-card-holder landing-page-robot-1">
-            <img class="position-relative" src="/assets/img/example-nft-1.png" width="389.55px" height="447.11px" style="border-radius: 26.14px"/>
-            <div class="position-relative d-flex justify-content-between fc-landing-page" style="top: 35px; margin-bottom: 36px">
-              <div class="d-flex flex-column">
-                <div class="landing-page-nft-card-fs-large">Desomon #147</div>
-                <div class="landing-page-nft-card-fs-small" style="margin-top: 10px">For Sale</div>
-              </div>
-              <div class="d-flex flex-column align-items-end">
-                <div class="landing-page-nft-card-fs-small" style="margin-top: 2px">Min Bid</div>
-                <div class="d-flex justify-content-end landing-page-nft-card-fs-large" style="margin-top: 5px">
-                  <i-feather name="deso" class="feather-medium fc-none fs-0px mt-5px mr-16px"></i-feather>
-                  0.9
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!--Background blobs-->
-    </div>
-  </div>
-
-
+ 
 
   
 
