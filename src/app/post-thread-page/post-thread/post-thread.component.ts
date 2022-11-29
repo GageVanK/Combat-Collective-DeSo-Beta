@@ -301,7 +301,7 @@ export class PostThreadComponent implements AfterViewInit {
         this.postLoaded.emit(
           `${this.globalVars.addOwnershipApostrophe(this.currentPost.ProfileEntryResponse.Username)} ${postType}`
         );
-        this.titleService.setTitle(this.currentPost.ProfileEntryResponse.Username + ` on ${environment.node.name}`);
+        this.titleService.setTitle(this.currentPost.ProfileEntryResponse.Username + ` on waves`);
       },
       (err) => {
         // TODO: post threads: rollbar

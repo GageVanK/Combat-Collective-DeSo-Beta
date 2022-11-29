@@ -218,7 +218,7 @@ export class AdminComponent implements OnInit {
     this._loadBuyDeSoFeeRate();
     this._loadUSDToDeSoReserveExchangeRate();
 
-    this.titleService.setTitle(`Admin - ${environment.node.name}`);
+    this.titleService.setTitle(`Admin - waves`);
   }
 
   _updateNodeInfo() {

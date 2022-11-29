@@ -90,7 +90,7 @@ export class UpdateProfileComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     this._updateFormBasedOnLoggedInUser();
-    this.titleService.setTitle(`Update Profile - ${environment.node.name}`);
+    this.titleService.setTitle(`Update Profile - waves`);
     if (this.inTutorial) {
       this.globalVars.preventBackButton();
       // Set default profile pic in tutorial if user doesn't already have one.

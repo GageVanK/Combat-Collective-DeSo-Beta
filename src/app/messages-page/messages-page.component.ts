@@ -39,7 +39,7 @@ export class MessagesPageComponent {
   ) {}
 
   ngOnInit() {
-    this.titleService.setTitle(`Messages - ${environment.node.name}`);
+    this.titleService.setTitle(`Messages - waves`);
   }
 
   // send logged in users to browse

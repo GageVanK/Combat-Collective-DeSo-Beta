@@ -36,6 +36,6 @@ export class SellCreatorCoinsTutorialComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(`Sell Creator Coins Tutorial - ${environment.node.name}`);
+    this.titleService.setTitle(`Sell Creator Coins Tutorial - waves`);
   }
 }

@@ -2781,7 +2781,7 @@ export class BackendApiService {
 
   parsePostError(err): string {
     if (err.status === 0) {
-      return `${environment.node.name} is experiencing heavy load. Please try again in one minute.`;
+      return `waves is experiencing heavy load. Please try again in one minute.`;
     }
 
     let errorMessage = JSON.stringify(err);
@@ -2794,7 +2794,7 @@ export class BackendApiService {
 
   parseProfileError(err): string {
     if (err.status === 0) {
-      return `${environment.node.name} is experiencing heavy load. Please try again in one minute.`;
+      return `waves is experiencing heavy load. Please try again in one minute.`;
     }
 
     let errorMessage = JSON.stringify(err);
@@ -2807,7 +2807,7 @@ export class BackendApiService {
 
   parseMessageError(err): string {
     if (err.status === 0) {
-      return `${environment.node.name} is experiencing heavy load. Please try again in one minute.`;
+      return `waves is experiencing heavy load. Please try again in one minute.`;
     }
 
     let errorMessage = JSON.stringify(err);

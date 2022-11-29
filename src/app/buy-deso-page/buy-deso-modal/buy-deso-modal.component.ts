@@ -15,7 +15,7 @@ export class BuyDesoModalComponent implements OnInit {
   showCloseButton: boolean = true;
 
   ngOnInit() {
-    this.titleService.setTitle(`Buy $DESO - ${environment.node.name}`);
+    this.titleService.setTitle(`Buy $DESO - waves`);
   }
 
   constructor(public globalVars: GlobalVarsService, private titleService: Title, public bsModalRef: BsModalRef) {}

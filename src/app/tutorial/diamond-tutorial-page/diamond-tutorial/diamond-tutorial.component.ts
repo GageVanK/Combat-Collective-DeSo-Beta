@@ -30,7 +30,7 @@ export class DiamondTutorialComponent implements OnInit {
 
   ngOnInit() {
     this.globalVars.preventBackButton();
-    this.titleService.setTitle(`Diamond Tutorial - ${environment.node.name}`);
+    this.titleService.setTitle(`Diamond Tutorial - waves`);
     this.backendApi
       .GetSinglePost(
         this.globalVars.localNode,

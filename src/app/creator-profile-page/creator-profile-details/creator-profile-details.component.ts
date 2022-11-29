@@ -63,7 +63,7 @@ export class CreatorProfileDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(this.userName + ` on ${environment.node.name}`);
+    this.titleService.setTitle(this.userName + ` on waves`);
   }
 
   userBlocked() {

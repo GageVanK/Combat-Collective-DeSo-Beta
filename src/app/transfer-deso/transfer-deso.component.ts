@@ -61,7 +61,7 @@ export class TransferDeSoComponent implements OnInit {
 
   ngOnInit() {
     this.feeRateDeSoPerKB = (this.globalVars.defaultFeeRateNanosPerKB / 1e9).toFixed(9);
-    this.titleService.setTitle(`Send $DESO - ${environment.node.name}`);
+    this.titleService.setTitle(`Send $DESO - waves`);
     this.sendDeSoQRCode = `${this.backendApi._makeRequestURL(location.host, "/" + RouteNames.SEND_DESO)}?public_key=${
       this.globalVars.loggedInUser.PublicKeyBase58Check
     }`;

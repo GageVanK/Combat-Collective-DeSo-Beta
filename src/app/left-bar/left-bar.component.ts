@@ -145,7 +145,7 @@ export class LeftBarComponent {
     SwalHelper.fire({
       target: this.globalVars.getTargetComponentSelector(),
       title: "Tutorial",
-      html: `Learn how ${environment.node.name} works!`,
+      html: `Learn how waves works!`,
       showConfirmButton: true,
       // Only show skip option to admins and users who do not need to complete tutorial
       showCancelButton: !!this.globalVars.loggedInUser?.IsAdmin || !this.globalVars.loggedInUser?.MustCompleteTutorial,

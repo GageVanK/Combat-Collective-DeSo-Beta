@@ -140,7 +140,7 @@ export class SettingsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(`Settings - ${environment.node.name}`);
+    this.titleService.setTitle(`Settings - waves`);
     this.selectedLanguage = this.translocoService.getActiveLang();
   }
 

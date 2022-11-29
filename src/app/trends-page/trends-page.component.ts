@@ -11,6 +11,6 @@ export class TrendsPageComponent implements OnInit {
   constructor(private titleService: Title) {}
 
   ngOnInit() {
-    this.titleService.setTitle(`Trends - ${environment.node.name}`);
+    this.titleService.setTitle(`Trends - waves`);
   }
 }
