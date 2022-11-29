@@ -1,8 +1,7 @@
 <script src="../../environments/environment.prod.ts"></script>
 
 <!-- Landing Page Top Bar -->
-<div class="position-relative landing-page-container-bg" *transloco="let t">
-  <div class="position-relative landing-page-container-1">
+
     <div class="position-relative d-flex justify-content-between mt-30px landing-page-top-bar">
       <div class="fc-landing-page d-flex align-items-center">
         Waves
@@ -27,16 +26,9 @@
   </h1>
 </div>
 
-
-
-
-
-  
 <!-- Create Account Button -->
-  <div class="landing-page-content-container mb-40px">
     <div class="d-flex justify-content-center position-relative" style="z-index: 1" [ngClass]="{ 'flex-column': globalVars.isMobile() }">
       <button class="landing-page-btn landing-page-primary-btn font-weight-bold" (click)="globalVars.launchSignupFlow()">
         <div>Create Account</div>
       </button>
-   
-</div>
+    </div>
