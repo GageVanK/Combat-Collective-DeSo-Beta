@@ -1,34 +1,65 @@
 <script src="../../environments/environment.prod.ts"></script>
-
-<!-- Landing Page Top Bar -->
-
-    <div class="position-relative d-flex justify-content-between mt-30px landing-page-top-bar">
-      <div class="fc-landing-page d-flex align-items-center">
-        Waves
-      </div>
-      <div class="fc-landing-page d-flex align-items-center">
-        <a class="fc-landing-page mr-15px" (click)="globalVars.launchLoginFlow()">
-          <i-feather *ngIf="!globalVars.isMobile()" name="lock-2" class="feather-small fc-landing-page mr-5px position-relative" style="top: -2px"></i-feather>
-          {{t('landing.login')}}
-        </a>
-        <a *ngIf="globalVars.isMobile()" class="fc-landing-page" (click)="globalVars.launchSignupFlow()">
-          {{t('landing.signup')}}
-        </a>
-        <button *ngIf="!globalVars.isMobile()" style="font-size: 16px; padding: 5px; width: 152px; height: 50px" class="landing-page-primary-btn-inverted landing-page-btn fs-16px" (click)="globalVars.launchSignupFlow()">{{t("landing.signuptoday")}}</button>
-      </div>
+<div class="w-100">
+  <div class="container d-sm-none">
+    <div class="row d-flex justify-content-center landing__ticker">
+      
     </div>
- 
-
-  
-<div>
-  <h1>
-    Waves: Blockchain Live Streaming
-  </h1>
+  </div>
 </div>
 
-<!-- Create Account Button -->
-    <div class="d-flex justify-content-center position-relative" style="z-index: 1" [ngClass]="{ 'flex-column': globalVars.isMobile() }">
-      <button class="landing-page-btn landing-page-primary-btn font-weight-bold" (click)="globalVars.launchSignupFlow()">
-        <div>Create Account</div>
-      </button>
+
+<div class="w-100 border-bottom px-10px">
+  <div class="container-lg landing__header">
+    <div class="row">
+      <div>
+        <p>waves</p>
+      </div>
+      </div>
     </div>
+  </div>
+
+
+<div class="container-lg border-left border-right landing__hero">
+  <div class="row">
+    <div class="col text-center">
+      <h1 class="font-weight-bold text-black slide-up-1">
+        Waves: Blockchain Live Streaming
+      </h1>
+      <div class="slide-up-2">
+        <a
+          class="btn btn-primary landing__sign-up"
+          (click)="globalVars.launchSignupFlow()"
+        >
+          <div style="font-weight: bold; font-size: 20px">Sign Up</div>
+        </a>
+        <a
+          class="landing__log-in d-none d-sm-block"
+          (click)="globalVars.launchLoginFlow()"
+          style="font-size: 15px"
+        >
+          Log in
+        </a>
+        <a
+          class="landing__log-in d-block d-sm-none mt-3"
+          (click)="globalVars.launchLoginFlow()"
+          style="font-size: 15px"
+        >
+          Log in
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+   
+
+<div class="w-100 landing__echo">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col mb-0 text-center">
+        <p class="text-grey9 fs-20px">The future is decentralized.</p>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
