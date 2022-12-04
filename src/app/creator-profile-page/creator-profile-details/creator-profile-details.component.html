@@ -14,7 +14,7 @@
   <app-earnings-card *ngIf="globalVars.isMobile()" [profile]="profile"></app-earnings-card>
   <!-- Feed Selector -->
   <tab-selector
-    [tabs]="['Posts', 'Blog', 'Creator Coin', 'Diamonds', 'NFTs']"
+    [tabs]="['Posts', 'NFTs']"
     [activeTab]="activeTab"
     (tabClick)="_handleTabClick($event)"
   ></tab-selector>
