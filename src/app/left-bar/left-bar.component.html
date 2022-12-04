@@ -31,11 +31,7 @@
             [isUnread]="globalVars.unreadNotifications > 0"
             [iconName]="globalVars.unreadNotifications > 0 ? 'bell-notification' : 'bell'"
           ></left-bar-button>
-          <left-bar-button
-            [link]="'/' + globalVars.RouteNames.CREATORS"
-            [buttonLabel]="t('left_bar.buy_creators')"
-            [iconName]="'users'"
-          ></left-bar-button>
+        
           <left-bar-button
             [link]="'/' + globalVars.RouteNames.BUY_DESO"
             [buttonLabel]="t('left_bar.buy_deso')"
@@ -70,29 +66,7 @@
             [buttonLabel]="t('left_bar.my_wallet')"
             [iconName]="'diamond'"
           ></left-bar-button>
-          <a
-            class="cursor-pointer w-100 d-flex align-items-center fc-default left-bar-link"
-            style="height: 36px"
-            (click)="displayMore($event)"
-          >
-            <i-feather name="more-horizontal" class="feather-medium fs-0px"></i-feather>
-            <a class="fs-17px fc-default font-weight-bold" style="margin-left: 23px">
-              {{ "left_bar.more" | transloco }}
-            </a>
-          </a>
-          <div class="position-relative">
-            <left-bar-more (closeMore)="hideMore()" *ngIf="showMore"></left-bar-more>
-          </div>
-          <button *ngIf="!isMobile" class="left-bar__post-button" (click)="openCreatePostModal()">
-            {{ "left_bar.post" | transloco }}
-          </button>
-          <a
-            *ngIf="!globalVars.isMobile()"
-            [routerLink]="['/' + globalVars.RouteNames.CREATE_LONG_POST]"
-            class="btn btn-outline-dark p-2 mt-2 w-80"
-          >
-            Blog Post
-          </a>
+       
         </div>
       </div>
       <div *ngIf="isMobile">
