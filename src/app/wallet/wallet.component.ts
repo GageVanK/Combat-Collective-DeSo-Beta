@@ -128,7 +128,7 @@ export class WalletComponent implements OnInit, OnDestroy, AfterViewInit {
     });
     this.sortWallet("value");
     this._handleTabClick(WalletComponent.coinsPurchasedTab);
-    this.titleService.setTitle(`Wallet - waves`);
+    this.titleService.setTitle(`Wallet - Combat Collective`);
   }
 
   ngOnInit() {

@@ -12,7 +12,7 @@ export class BuyDeSoPageComponent implements OnInit {
   isLeftBarMobileOpen: boolean = false;
 
   ngOnInit() {
-    this.titleService.setTitle(`Buy $DESO - waves`);
+    this.titleService.setTitle(`Buy $DESO - Combat Collective`);
   }
 
   constructor(public globalVars: GlobalVarsService, private titleService: Title) {}

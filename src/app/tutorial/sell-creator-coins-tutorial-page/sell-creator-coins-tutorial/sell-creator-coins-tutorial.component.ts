@@ -36,6 +36,6 @@ export class SellCreatorCoinsTutorialComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(`Sell Creator Coins Tutorial - waves`);
+    this.titleService.setTitle(`Sell Creator Coins Tutorial - Combat Collective`);
   }
 }

@@ -55,7 +55,7 @@ export class BuyCreatorCoinsTutorialComponent implements OnInit {
 
   ngOnInit() {
     this.addMobileFooter = this.globalVars.isMobile() && window.innerHeight < 575;
-    this.titleService.setTitle(`Buy Creator Coins Tutorial - waves`);
+    this.titleService.setTitle(`Buy Creator Coins Tutorial - Combat Collective`);
     this.userCanAffordCCBuy = this.globalVars.loggedInUser.BalanceNanos > this.globalVars.usdToNanosNumber(0.1);
   }
 

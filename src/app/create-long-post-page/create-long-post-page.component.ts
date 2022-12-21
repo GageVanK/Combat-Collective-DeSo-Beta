@@ -11,6 +11,6 @@ export class CreateLongPostPageComponent {
   constructor(private titleService: Title) {}
 
   ngOnInit() {
-    this.titleService.setTitle(`Notifications - waves`);
+    this.titleService.setTitle(`Notifications - Combat Collective`);
   }
 }

@@ -68,12 +68,12 @@ export class RightBarCreatorsComponent implements OnInit {
   static GAINERS: RightBarTabOption = {
     name: "right_bar.creators.top_daily_gainers",
     width: 175,
-    poweredBy: { name: "Altumbase", link: `https://altumbase.com/tools?waves` },
+    poweredBy: { name: "Altumbase", link: `https://altumbase.com/tools?Combat Collective` },
   };
   static DIAMONDS: RightBarTabOption = {
     name: "right_bar.creators.top_daily_diamond_creators",
     width: 275,
-    poweredBy: { name: "Altumbase", link: `https://altumbase.com/tools?waves` },
+    poweredBy: { name: "Altumbase", link: `https://altumbase.com/tools?Combat Collective` },
   };
   static COMMUNITY: RightBarTabOption = {
     name: "right_bar.creators.top_community_projects",

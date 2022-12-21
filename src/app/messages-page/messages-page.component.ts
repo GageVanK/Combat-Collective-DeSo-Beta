@@ -39,7 +39,7 @@ export class MessagesPageComponent {
   ) {}
 
   ngOnInit() {
-    this.titleService.setTitle(`Messages - waves`);
+    this.titleService.setTitle(`Messages - Combat Collective`);
   }
 
   // send logged in users to browse

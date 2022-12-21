@@ -945,7 +945,7 @@ export class GlobalVarsService {
   }
 
   _alertError(err: any, showBuyDeSo: boolean = false, showBuyCreatorCoin: boolean = false) {
-    if (err !== `waves is experiencing heavy load. Please try again in one minute.`) {
+    if (err !== `Combat Collective is experiencing heavy load. Please try again in one minute.`) {
       err = parseCleanErrorMsg(err);
     }
 

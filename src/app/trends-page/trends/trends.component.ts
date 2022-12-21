@@ -194,7 +194,7 @@ export class TrendsComponent implements OnInit {
 
   ngOnInit() {
     this.isLoadingProfilesForFirstTime = true;
-    this.titleService.setTitle(`Trends - waves`);
+    this.titleService.setTitle(`Trends - Combat Collective`);
   }
 
   canLoggedInUserFollowTargetPublicKey(targetPubKeyBase58Check) {

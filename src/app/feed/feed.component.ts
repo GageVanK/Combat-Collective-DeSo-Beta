@@ -157,7 +157,7 @@ export class FeedComponent implements OnInit, OnDestroy, AfterViewChecked {
 
   ngOnInit() {
     this._initializeFeeds();
-    this.titleService.setTitle(`Feed - waves`);
+    this.titleService.setTitle(`Feed - Combat Collective`);
     // this.fetchUserReferrals();
   }
 

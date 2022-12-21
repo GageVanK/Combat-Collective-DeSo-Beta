@@ -115,7 +115,7 @@ export class BuyDesoTutorialComponent implements OnInit {
       steps: [
         {
           title,
-          intro: `Many creators on waves have a coin that you can buy and sell.`,
+          intro: `Many creators on Combat Collective have a coin that you can buy and sell.`,
           position: "bottom",
           element: document.querySelector("#creator-coins-holder"),
         },

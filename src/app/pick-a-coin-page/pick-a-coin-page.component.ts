@@ -23,7 +23,7 @@ export class PickACoinPageComponent implements OnInit {
         this.hasUnminedCreatorCoins = true;
       }
     }
-    this.titleService.setTitle(`Send Creator Coins - waves`);
+    this.titleService.setTitle(`Send Creator Coins - Combat Collective`);
   }
 
   usersYouHODL() {

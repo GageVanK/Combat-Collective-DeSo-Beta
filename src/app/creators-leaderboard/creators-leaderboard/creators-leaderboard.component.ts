@@ -121,7 +121,7 @@ export class CreatorsLeaderboardComponent implements OnInit {
 
   ngOnInit() {
     this.isLoadingProfilesForFirstTime = true;
-    this.titleService.setTitle(`Buy Creator Coins - waves`);
+    this.titleService.setTitle(`Buy Creator Coins - Combat Collective`);
   }
 
   canLoggedInUserFollowTargetPublicKey(targetPubKeyBase58Check) {

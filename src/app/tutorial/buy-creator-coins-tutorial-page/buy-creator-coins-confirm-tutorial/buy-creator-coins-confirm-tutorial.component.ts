@@ -36,6 +36,6 @@ export class BuyCreatorCoinsConfirmTutorialComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle(`Buy Creator Coins Tutorial - waves`);
+    this.titleService.setTitle(`Buy Creator Coins Tutorial - Combat Collective`);
   }
 }

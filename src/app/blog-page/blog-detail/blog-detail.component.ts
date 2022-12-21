@@ -169,7 +169,7 @@ export class BlogDetailComponent implements OnInit, OnDestroy {
         this.title = `${this.globalVars.addOwnershipApostrophe(
           this.currentPost.ProfileEntryResponse.Username
         )} Blog Post`;
-        this.titleService.setTitle(this.currentPost.ProfileEntryResponse.Username + ` on waves`);
+        this.titleService.setTitle(this.currentPost.ProfileEntryResponse.Username + ` on Combat Collective`);
         this._fetchRecentPosts(res.PostFound.ProfileEntryResponse);
         this.isFollowing = this.followService._isLoggedInUserFollowing(
           res.PostFound.ProfileEntryResponse?.PublicKeyBase58Check
