@@ -3,20 +3,7 @@
   [ngStyle]="{ height: getHeight() }"
   (click)="reload()"
 >
-  <img
-    *ngIf="!isDark"
-    class="fc-secondary spinner-color"
-    src="../../assets/diamond/spinner-light.svg"
-    height="100px"
-    width="100px"
-  />
-  <img
-    *ngIf="isDark"
-    class="fc-secondary spinner-color"
-    src="../../assets/diamond/spinner-dark.svg"
-    height="100px"
-    width="100px"
-  />
+  
   <div class="mt-12px fc-secondary">
     <div class="fc-secondary fs-24px text-align-center">
       <div *ngIf="titleLoadingText">{{ titleLoadingText }}</div>
