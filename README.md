@@ -4,7 +4,7 @@
 
 # DeSo Blockchain
 
-[DeSo](https://www.deso.com/) <br>
+[DeSo Official Website](https://www.deso.com/) <br>
 [DeSo Frontend Documentation](https://docs.deso.org/for-developers/walkthrough/dev-setup)
 
 
